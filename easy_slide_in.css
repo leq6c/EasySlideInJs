@@ -2,6 +2,13 @@
  * EasySlideInJs 2020
  */
 
+/*
+ * overflow-x of body should be hidden.
+ */
+body {
+	overflow-x: hidden !important;
+}
+
 @keyframes slideInLeft {
 	0% {
 		transform: translateX(-240px);
@@ -38,4 +45,8 @@
 
 .slide-from-right {
 	animation: slideInRight 1.5s ease;
+}
+
+.slide {
+	opacity: 0 !important;
 }
